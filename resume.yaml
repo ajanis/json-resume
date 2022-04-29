@@ -204,11 +204,11 @@ work:
     company: Obsidian Hosting Networks
     location: 'Chicago, IL'
     description: My game hosting company
-    position: Systems Administrator
+    position: TODO
     url: 'https://obsidianhosting.net'
     startDate: '2002'
     endDate: '2008'
-    summary: TODO
+    summary: Best Hosting Company 
     highlights:
       - >-
         Responsible for ordering, building, and racking 50 Fedora Core 4
