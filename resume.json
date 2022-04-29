@@ -1,0 +1,312 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Alan Janis",
+    "label": "Technical Solutions Architect / Automation Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C5603AQFpoh9JOX5Sww/profile-displayphoto-shrink_200_200/0/1517790631053?e=1656547200&v=beta&t=_nQcOEzJ1ZkA7nMXm6foKjaJH0hWBXlsK_ov9kg7Rx0",
+    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQFpoh9JOX5Sww/profile-displayphoto-shrink_200_200/0/1517790631053?e=1656547200&v=beta&t=_nQcOEzJ1ZkA7nMXm6foKjaJH0hWBXlsK_ov9kg7Rx0",
+    "email": "alan.janis@gmail.com",
+    "phone": "(941) 286-3602",
+    "url": "https://something.com",
+    "summary": "My career began with Obsidian Hosting, a company I started to provide scalable and secure deployment services for hosting multiplayer game servers. Over 10 years of experience architecting and supporting highly available solutions at massive scale enabled specialization in custom tailored near-zero touch automated provisioning pipelines.",
+    "location": {
+      "address": "11838 W Marlowe Ave",
+      "postalCode": "80465",
+      "city": "Morrison",
+      "countryCode": "US",
+      "region": "CO"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "@ajanis",
+        "url": "https://github.com/ajanis"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "in/AlanJanis/",
+        "url": "https://www.linkedin.com/in/alanjanis/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "World Wide Technology",
+      "company": "World Wide Technology",
+      "location": "Denver, CO",
+      "description": "Awesome compression company",
+      "position": "Director of Technology",
+      "url": "https://massroots.com",
+      "startDate": "2015",
+      "endDate": "2016",
+      "summary": "TODO",
+      "highlights": [
+        "Responsible for the redesign of the infrastructure to run the mobile application, revamping the entire backend infrastructure to a hybrid platform on AWS, Openstack, and KVM+Vagrant.",
+        "My team was responsible for developing API services using Node.js, Express.js, Redis, Percona XtradDB Cluster, and Nginx to facilitate migration from Facebook's Parse Mobile App Platform.",
+        "Built out monitoring and alerting systems with Icinga, ELK stack, Graphite, and collectd.",
+        "Deployed Salt for configuration, control, self-healing, and deployment integrated with various cloud providers allowing for rapid deployment, provision, and configuration of virtual machines in the cloud.",
+        "Technologies used for infrastructure include Percona XtraDB Cluster, Salt, Icinga, Redis, Nginx, HAProxy, Node.js, ElasticSearch, Jenkins, KVM, Vagrant, Amazon Web Services (EC2, S3 Primarily), LDAP, PFSense, OpenVPN."
+      ]
+    },
+    {
+      "name": "MassRoots",
+      "company": "MassRoots",
+      "location": "Denver, CO",
+      "description": "Startup Providing a Niche Social Media Network",
+      "position": "Director of Technology",
+      "url": "https://massroots.com",
+      "startDate": "2015",
+      "endDate": "2016",
+      "summary": "TODO",
+      "highlights": [
+        "Responsible for the redesign of the infrastructure to run the mobile application, revamping the entire backend infrastructure to a hybrid platform on AWS, Openstack, and KVM+Vagrant.",
+        "My team was responsible for developing API services using Node.js, Express.js, Redis, Percona XtradDB Cluster, and Nginx to facilitate migration from Facebook's Parse Mobile App Platform.",
+        "Built out monitoring and alerting systems with Icinga, ELK stack, Graphite, and collectd.",
+        "Deployed Salt for configuration, control, self-healing, and deployment integrated with various cloud providers allowing for rapid deployment, provision, and configuration of virtual machines in the cloud.",
+        "Technologies used for infrastructure include Percona XtraDB Cluster, Salt, Icinga, Redis, Nginx, HAProxy, Node.js, ElasticSearch, Jenkins, KVM, Vagrant, Amazon Web Services (EC2, S3 Primarily), LDAP, PFSense, OpenVPN."
+      ]
+    },
+    {
+      "name": "Photobucket",
+      "company": "Photobucket",
+      "location": "Denver, CO",
+      "description": "Awesome compression company",
+      "position": "Senior OpenStack Engineer",
+      "url": "https://photobucket.com",
+      "startDate": "2012",
+      "endDate": "2015",
+      "summary": "TODO",
+      "highlights": [
+        "Lead on Photobucket's move to virtualization initiative. Transitioned all edge, legacy, stage, development, and internal/tool services to OpenStack. In addition, migrated all significant databases and datastores to KVM virtual environments.",
+        "Principle engineer of private cloud environment using OpenStack (Grizzly, Icehouse) on Ubuntu (12.04, 14.04 respectively) built on Cisco UCS B-Series blade hardware backed by NetApp clustered NFS storage.",
+        "Shared responsibility of 22 Petabyes of storage, spread over 72 NetApp appliances (FAS6040, FAS3240, FAS3210, FAS2240, FAS2020) running OnTap 7.1.1 - 8.1.1 in 7-Mode and Clustered-Mode.",
+        "Developed custom “storage balancing” tools required to move roughly 6 Petabytes of data out of NetApp tradvols and into 64-bit flexvols. Managed rebalancing data across the existing 32-bit flexvols to begin the upgrade process to 64-bit flexvols. This was absolutely essential to the release and ramp-up of the site redesign, given the data-ingest projections.",
+        "Headed operations objective to test PureStorage and NetApp flash-based SANs as the storage backend for databases, recently converted to KVM guests running on UCS C-Series hardware. Project involved fiber-channel switching/zoning configuration on Cisco UCS 6200 Fabric-Interconnects and Linux FCoE & multipathd configuration on hypervisors, as well as, configuring KVM to boot from SAN."
+      ]
+    },
+    {
+      "name": "Yahoo!",
+      "company": "Yahoo!",
+      "location": "Denver, CO",
+      "description": "Awesome compression company",
+      "position": "Senior Systems Engineer",
+      "url": "https://yahoo.com",
+      "startDate": "2010",
+      "endDate": "2012",
+      "summary": "TODO",
+      "highlights": [
+        "Managed the deployment of the Yahoo! Contributor Network including network and hardware specifications, system provisioning, QA process, and launch.",
+        "Provided support to our in-house development team to leverage new Yahoo! technology including their cloud computing platform which now handles all Associated Content analytics and content (content agility) in order to feed the content across Y!’s entire collection of properties.",
+        "Responsible for 100% availability of Associated Content and Yahoo! Contributor Network consisting of 340 RHEL5 servers.",
+        "Managed “Yahoo Voices” launch and affected changes to improve scalability and automation.",
+        "Architected parallel code deployment system for dev, stage, QA, and production environments using Git. Resulted in full deploys in under 90 seconds and featured tiered-deploy and full rollback-to-stable capabilities.",
+        "Managed the Denver office integration with Yahoo!’s corporate network, completing this several months ahead of Yahoo! projections. This included building out the IDF room to spec with regard to cooling and power, redundant network stacks, cabling, and buildout/migration of all development environments.",
+        "Co-Managed the Yahoo Contributor Network site release in the US, UK, and Brazil.",
+        "Worked closely with our development team to consistently improve site and application performance as our contributor base grew to over 500,000 and our publishing platform moved towards internationalization, planning for growth accordingly."
+      ]
+    },
+    {
+      "name": "A2 Hosting",
+      "company": "A2 Hosting",
+      "location": "Ann Arbor, MI",
+      "description": "Awesome compression company",
+      "position": "Lead Systems Administrator",
+      "url": "https://a2hosting.com",
+      "startDate": "2008",
+      "endDate": "2010",
+      "summary": "TODO",
+      "highlights": [
+        "Responsible for maintaining the hardware and software of more than 250 CentOS servers in a high-availability environment.",
+        "Through my redesign of the existing kickstart provisioning build system,  we achieved nearly zero-touch provisioning of systems.",
+        "Implemented a new, fully redundant, multi-gigabit network using 25-pair / 50-pin telco modules to eliminate rack-confined switches, greatly simplifying network architecture.",
+        "Deployed a network of serial console servers with improved network-boot options, reducing the need for hands-on software repairs by 60%.",
+        "Deployed in-house iSCSI storage solution on Supermicro chassis to migrate onboard storage of customer data to more robust and secure SANs.",
+        "Responsible for fully training our systems administration team focused on advanced troubleshooting techniques, system maintenance tooling and procedures, and methods for providing exceptional customer care."
+      ]
+    },
+    {
+      "name": "Obsidian Hosting Networks",
+      "company": "Obsidian Hosting Networks",
+      "location": "Chicago, IL",
+      "description": "Awesome compression company",
+      "position": "Systems Administrator",
+      "url": "https://obsidianhosting.net",
+      "startDate": "2002",
+      "endDate": "2008",
+      "summary": "TODO",
+      "highlights": [
+        "Responsible for ordering, building, and racking 50 Fedora Core 4 webservers.",
+        "Maintained remote and on-site hardware, software, installation, and deployments of cPanel and WHM software.",
+        "Executed deployments of ModernBill then WHMCS billing and ‘client areas.’",
+        "Configured DNS clustering with BIND.",
+        "Managed our Apache webserver deployment as one of the first companies offering developer-friendly PHP 5 web-hosting in addition to multiple PHP-CGI options; now utilized by dozens of shared-hosting vendors.",
+        "Oversaw our upgrade to PHP5, ensuring that the change went smoothly for customers, and managed the manual migration of over 500 websites (including email) from a non cPanel environment to our systems.",
+        "Deployed our internal network to handle monitoring, backups, and remote administration.",
+        "Solely responsible for streamlining the customer sales and support processes to ensure efficiency and an excellent user experience."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Engineer of the Year",
+      "date": "2014-11-01",
+      "awarder": "Award Committee - World Wide Technology",
+      "summary": "Saving PayPal - TODO"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Systems",
+      "keywords": [
+        "CentOS",
+        "Fedora Core",
+        "RHEL",
+        "Ubuntu",
+        "Gentoo Linux",
+        "OS-X"
+      ]
+    },
+    {
+      "name": "Virtualization",
+      "keywords": [
+        "OpenStack",
+        "KVM",
+        "VMWare ESXi 4/5",
+        "XenServer"
+      ]
+    },
+    {
+      "name": "Webservers",
+      "keywords": [
+        "Apache",
+        "Lighttpd",
+        "NGINX",
+        "Apache Tomcat"
+      ]
+    },
+    {
+      "name": "Nameservers",
+      "keywords": [
+        "BIND",
+        "PowerDNS",
+        "NSD",
+        "Akamai GSLB"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": [
+        "MySQL",
+        "Percona XtraDB Cluster",
+        "Galera",
+        "PostgreSQL 8"
+      ]
+    },
+    {
+      "name": "Storage",
+      "keywords": [
+        "ISCSI",
+        "DAS",
+        "NFS",
+        "ATAoE",
+        "Fibre Channel",
+        "NetApp 7-Mode Certified"
+      ]
+    },
+    {
+      "name": "Load Balancing",
+      "keywords": [
+        "F5",
+        "A10",
+        "HAProxy"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "keywords": [
+        "Git",
+        "Mercurial",
+        "Subversion"
+      ]
+    },
+    {
+      "name": "Package Management",
+      "keywords": [
+        "YUM",
+        "RPM",
+        "Aptitude",
+        "DPKG"
+      ]
+    },
+    {
+      "name": "Configuration / Build Automation",
+      "keywords": [
+        "PXE",
+        "Kickstart",
+        "Preseed",
+        "Foreman",
+        "Cobbler",
+        "Ansible",
+        "Salt",
+        "Puppet",
+        "Chef",
+        "Cfengine"
+      ]
+    },
+    {
+      "name": "Monitoring / Logging",
+      "keywords": [
+        "Nagios",
+        "Xymon",
+        "Zabbix",
+        "Cacti",
+        "Splunk",
+        "Logstash"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Bash",
+        "Python",
+        "Perl",
+        "PHP"
+      ]
+    },
+    {
+      "name": "CDN / Caching",
+      "keywords": [
+        "Akamai",
+        "Level3",
+        "Squid",
+        "Varnish",
+        "Memcached",
+        "APC"
+      ]
+    },
+    {
+      "name": "Network / Firewall",
+      "keywords": [
+        "Cisco IOS",
+        "Brocade/Foundry",
+        "Iptables",
+        "Juniper SSG",
+        "Cisco ASA",
+        "CheckPoint"
+      ]
+    },
+    {
+      "name": "Mail Servers",
+      "keywords": [
+        "Postfix",
+        "Courier",
+        "Dovecot"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

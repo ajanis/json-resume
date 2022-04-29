@@ -1,0 +1,13 @@
+{
+  "name": "alan-resume",
+  "version": "1.0.0",
+  "description": "Alan Janis",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "resume-cli": "^3.0.7"
+  },
+  "devDependencies": {},
+  "author": "Alan Janis",
+  "license": "MIT"
+}
