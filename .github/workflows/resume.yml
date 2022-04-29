@@ -28,7 +28,7 @@ jobs:
           from: 'yaml'
           to: 'json'
       - name: Print yaml2json result
-        run: echo "${{ steps.yaml2json.outputs.data }}" > resume.json
+        run: resume.json < ${{ steps.yaml2json.outputs.data }}
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
