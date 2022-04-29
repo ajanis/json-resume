@@ -113,7 +113,7 @@ work:
         appliances (FAS6040, FAS3240, FAS3210, FAS2240, FAS2020) running OnTap
         7.1.1 - 8.1.1 in 7-Mode and Clustered-Mode.
       - >-
-        Developed custom â€œstorage balancingâ€ tools required to move roughly 6
+        Developed custom storage balancing tools required to move roughly 6
         Petabytes of data out of NetApp tradvols and into 64-bit flexvols.
         Managed rebalancing data across the existing 32-bit flexvols to begin
         the upgrade process to 64-bit flexvols. This was absolutely essential to
@@ -126,8 +126,8 @@ work:
         switching/zoning configuration on Cisco UCS 6200 Fabric-Interconnects
         and Linux FCoE & multipathd configuration on hypervisors, as well as,
         configuring KVM to boot from SAN.
-  - name: Yahoo!
-    company: Yahoo!
+  - name: Yahoo
+    company: Yahoo
     location: 'Denver, CO'
     description: Awesome compression company
     position: Senior Systems Engineer
@@ -149,7 +149,7 @@ work:
         Responsible for 100% availability of Associated Content and Yahoo!
         Contributor Network consisting of 340 RHEL5 servers.
       - >-
-        Managed â€œYahoo Voicesâ€ launch and affected changes to improve
+        Managed Yahoo Voices launch and affected changes to improve
         scalability and automation.
       - >-
         Architected parallel code deployment system for dev, stage, QA, and
@@ -157,7 +157,7 @@ work:
         seconds and featured tiered-deploy and full rollback-to-stable
         capabilities.
       - >-
-        Managed the Denver office integration with Yahoo!â€™s corporate network,
+        Managed the Denver office integration with Yahoo's corporate network,
         completing this several months ahead of Yahoo! projections. This
         included building out the IDF room to spec with regard to cooling and
         power, redundant network stacks, cabling, and buildout/migration of all
@@ -217,8 +217,8 @@ work:
         Maintained remote and on-site hardware, software, installation, and
         deployments of cPanel and WHM software.
       - >-
-        Executed deployments of ModernBill then WHMCS billing and â€˜client
-        areas.â€™
+        Executed deployments of ModernBill then WHMCS billing and client
+        areas.
       - Configured DNS clustering with BIND.
       - >-
         Managed our Apache webserver deployment as one of the first companies
