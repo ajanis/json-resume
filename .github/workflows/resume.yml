@@ -20,6 +20,13 @@ jobs:
     needs: check_run
     steps:
       - uses: actions/checkout@v2
+      - name: YAML/JSON/XML Converter Action
+        uses: fabasoad/yaml-json-xml-converter-action@v1.0.14
+        id: yaml2json
+        with:
+          path: 'resume.yml'
+          from: 'yaml'
+          to: 'json'
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
