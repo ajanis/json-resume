@@ -27,8 +27,11 @@ jobs:
           path: 'resume.yaml'
           from: 'yaml'
           to: 'json'
-      - name: Print yaml2json result
-        run: echo ${{ steps.yaml2json.outputs.data }} > resume.json
+      - name: create-json
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: resume.json
+          json: ${{ steps.yaml2json.outputs.data }}
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
