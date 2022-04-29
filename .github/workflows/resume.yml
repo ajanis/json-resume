@@ -24,7 +24,7 @@ jobs:
         uses: fabasoad/yaml-json-xml-converter-action@v1.0.14
         id: yaml2json
         with:
-          path: 'resume.yml'
+          path: 'resume.yaml'
           from: 'yaml'
           to: 'json'
       - uses: kelvintaywl/action-jsonresume-export@v1
