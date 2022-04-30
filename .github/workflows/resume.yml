@@ -56,4 +56,4 @@ jobs:
         if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: publish
