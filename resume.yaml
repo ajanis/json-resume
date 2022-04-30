@@ -259,6 +259,7 @@ skills:
       - Ubuntu
       - Gentoo Linux
       - OS-X
+      - Windows
   - name: Virtualization
     keywords:
       - OpenStack
