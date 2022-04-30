@@ -29,7 +29,7 @@ basics:
       username: 'ConstructorFleet'
       url: 'https://github.com/constructorfleet'
     - network: LinkedIn
-      username: in/AlanJanis
+      username: AlanJanis
       url: 'https://www.linkedin.com/in/alanjanis/'
 work:
   - name: World Wide Technology
