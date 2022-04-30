@@ -33,11 +33,10 @@ work:
     company: World Wide Technology
     location: 'Denver, CO'
     description: Awesome compression company
-    position: Director of Technology
-    url: 'https://massroots.com'
-    startDate: '2015'
-    endDate: '2016'
-    summary: TODO
+    position: Consulting Solutions Architect
+    url: 'https://wwt.com'
+    startDate: '2016'
+    summary: Providing customized solutions for high value clients.
     highlights:
       - >-
         Responsible for the redesign of the infrastructure to run the mobile
@@ -208,7 +207,7 @@ work:
     url: 'https://obsidianhosting.net'
     startDate: '2002'
     endDate: '2008'
-    summary: Best Hosting Company 
+    summary: Best Hosting Company
     highlights:
       - >-
         Responsible for ordering, building, and racking 50 Fedora Core 4
