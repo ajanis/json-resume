@@ -25,14 +25,16 @@ basics:
     - network: GitHub
       username: '@ajanis'
       url: 'https://github.com/ajanis'
+    - network: GitHub
+      username: 'ConstructorFleet'
+      url: 'https://github.com/constructorfleet'
     - network: LinkedIn
-      username: in/AlanJanis/
+      username: in/AlanJanis
       url: 'https://www.linkedin.com/in/alanjanis/'
 work:
   - name: World Wide Technology
     company: World Wide Technology
     location: 'Denver, CO'
-    description: Awesome compression company
     position: Consulting Solutions Architect
     url: 'https://wwt.com'
     startDate: '2016'
@@ -61,12 +63,11 @@ work:
   - name: MassRoots
     company: MassRoots
     location: 'Denver, CO'
-    description: Startup Providing a Niche Social Media Network
     position: Director of Technology
     url: 'https://massroots.com'
     startDate: '2015'
     endDate: '2016'
-    summary: TODO
+    summary: Implementing best practices and enterprise level tooling for a niche social media startup.
     highlights:
       - >-
         Responsible for the redesign of the infrastructure to run the mobile
@@ -96,7 +97,7 @@ work:
     url: 'https://photobucket.com'
     startDate: '2012'
     endDate: '2015'
-    summary: TODO
+    summary: Deploying and managing a massively scaled hosting solution for images and print orders.
     highlights:
       - >-
         Lead on Photobucket's move to virtualization initiative. Transitioned
@@ -202,12 +203,11 @@ work:
   - name: Obsidian Hosting Networks
     company: Obsidian Hosting Networks
     location: 'Chicago, IL'
-    description: My game hosting company
-    position: TODO
+    position: Systems Administrator / Owner
     url: 'https://obsidianhosting.net'
     startDate: '2002'
     endDate: '2008'
-    summary: Best Hosting Company
+    summary: Game server hosting for everyone.
     highlights:
       - >-
         Responsible for ordering, building, and racking 50 Fedora Core 4
