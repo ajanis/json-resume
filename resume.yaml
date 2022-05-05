@@ -323,6 +323,8 @@ skills:
       - Cfengine
   - name: Monitoring / Logging
     keywords:
+      - InfluxDB
+      - Grafana
       - Nagios
       - Xymon
       - Zabbix
