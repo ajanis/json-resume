@@ -40,11 +40,11 @@ work:
     summary: Providing customized solutions for high value clients.
     highlights:
       - >-
-        Volunteered to assist in a project on the verge of losing a high value
-        client on the verge. Worked directly with the client, on-site, to deploy
+        Volunteered to assist on a project on the verge of losing a high value
+        clien. Worked directly with the client, on-site, to deploy
         a complex internal-cloud infrastructure.
       - >-
-        Build an automated build pipeline using Ansible Tower and Foreman.
+        Built an automated build pipeline using Ansible Tower and Foreman.
         Given specifications, systems were provisioned, imaged, built, configured,
         and deployed at the push of button, empowering lab technicians and
         removing the need for infrastructure service requests.
