@@ -40,9 +40,12 @@ work:
     summary: Providing customized solutions for high value clients.
     highlights:
       - >-
-        Volunteered to assist on a project on the verge of losing a high value
-        clien. Worked directly with the client, on-site, to deploy
-        a complex internal-cloud infrastructure.
+        Volunteered to assist on a project on the verge of losing a veru high
+        value client. Worked on site with client engineers to explore a conatainerized
+        deployment, provisioning, and management of resouces in an internal cloud.
+        Deploying a uniquely brilliamt, intuive and maintsinable design pprompted 
+        immediate praise from the client; it earned me the <a href="#awards">Engineer
+        of the Year</a> award.
       - >-
         Built an automated build pipeline using Ansible Tower and Foreman.
         Given specifications, systems were provisioned, imaged, built, configured,
