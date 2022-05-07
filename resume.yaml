@@ -40,12 +40,12 @@ work:
     summary: Providing customized solutions for high value clients.
     highlights:
       - >-
-        Volunteered to assist on a project on the verge of losing a veru high
-        value client. Worked on site with client engineers to explore a conatainerized
-        deployment, provisioning, and management of resouces in an internal cloud.
-        Deploying a uniquely brilliamt, intuive and maintsinable design pprompted 
+        Volunteered to assist on a project on the verge of losing a very high
+        value client. Worked on site, directly with client engineers to explore a conatainerized
+        deployment, provisioning, and management solution of resouces in an internal OpenStack cloud.
+        Deployment of my uniquely brilliant, intuive and maintainable design prompted 
         immediate praise from the client; it earned me the <a href="#awards">Engineer
-        of the Year</a> award.
+        of the Year</a> award and invitation to train RedHat OpenStack engineers on VMIC architectural design.
       - >-
         Built an automated build pipeline using Ansible Tower and Foreman.
         Given specifications, systems were provisioned, imaged, built, configured,
