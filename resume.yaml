@@ -44,13 +44,15 @@ work:
         value client. Worked on site, directly with client engineers to explore a conatainerized
         deployment, provisioning, and management solution of resouces in an internal OpenStack cloud.
         Deployment of my uniquely brilliant, intuive and maintainable design prompted 
-        immediate praise from the client; it earned me the <a href="#awards">Engineer
-        of the Year</a> award and invitation to train RedHat OpenStack engineers on VMIC architectural design.
+        immediate praise from the client; it earned me the WWT Engineer
+        of the Year award and invitation to train RedHat OpenStack engineers on VMIC architectural design.
       - >-
         Built an automated build pipeline using Ansible Tower and Foreman.
         Given specifications, systems were provisioned, imaged, built, configured,
         and deployed at the push of button, empowering lab technicians and
         removing the need for infrastructure service requests.
+      - >-
+        Implemented a RDDA (Remote Direct Disk Access) NVMe mesh.
       - >-
         Consulted the first cross-divisional project team in building an
         automated solution to verify and remediate the hardware configuration,
