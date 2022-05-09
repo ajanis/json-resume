@@ -52,15 +52,14 @@ work:
         and deployed at the push of button, empowering lab technicians and
         removing the need for infrastructure service requests.
       - >-
-        Implemented a RDDA (Remote Direct Disk Access) NVMe mesh.
+        Implemented a RDDA (Remote Direct Disk Access) NVMe mesh prototype for a client, proving 
+        throughput of TODO.
       - >-
         Consulted the first cross-divisional project team in building an
         automated solution to verify and remediate the hardware configuration,
         health status, firmware and operating system version. Provided guidance
         related to setting up a PXE boot environment for hardware and system
         configuration, automated firmware remediation and reporting.
-      - >-
-        TODO
   - name: MassRoots
     company: MassRoots
     location: 'Denver, CO'
@@ -135,7 +134,6 @@ work:
     url: 'https://yahoo.com'
     startDate: '2010'
     endDate: '2012'
-    summary: TODO
     highlights:
       - >-
         Managed the deployment of the Yahoo! Contributor Network including
@@ -179,7 +177,6 @@ work:
     url: 'https://a2hosting.com'
     startDate: '2008'
     endDate: '2010'
-    summary: TODO
     highlights:
       - >-
         Responsible for maintaining the hardware and software of more than 250
