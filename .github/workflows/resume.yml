@@ -32,13 +32,20 @@ jobs:
         with:
           name: resume.json
           json: ${{ steps.yaml2json.outputs.data }}
-      - uses: kelvintaywl/action-jsonresume-export@v1
+      - uses: constructorfleet/action-jsonresume-export@v1.0
         name: Export resume as HTML
         with:
           theme: eloquent-mod
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: docs/index.html
+      - uses: constructorfleet/action-jsonresume-export@v1.1
+          name: Export resume as PDF
+          with:
+            theme: eloquent-mod
+            resume_filepath: resume.json
+            # modifies the index.html in-place
+            output_filepath: docs/resume.teagan.glenn.pdf
       - name: Commit published HTML
         id: commit
         run: |
@@ -46,6 +53,7 @@ jobs:
           git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain docs/index.html)" ]; then
             git add docs/index.html
+            git add docs/resume.teagan.glenn.pdf
             git commit -m "[ci skip] chore(docs/index.html): update resume page"
             echo ::set-output name=exit_code::0
           else
