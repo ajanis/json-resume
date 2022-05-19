@@ -44,9 +44,10 @@ work:
         Together we developed tools to automate containerized deployment (pre- docker-openstack) and I guided the team in testing, deploying, managing, and monitoring their OpenStack cloud.
         My unique, intuitive and maintainable design prompted immediate praise from the client, for which I earned WWT's global service provider engineer of the year award.
       - >-
-        Developed an automated build pipeline using Ansible Tower and Foreman, which, given minimal specifications, allows our technicians to deploy the resources necessary to provision and test hundreds of systems each day; which are shipped to our customers fully racked, cabled, and tested.
+        Developed an automated build pipeline using Ansible Tower and Foreman, which, given minimal specifications, allows our technicians to deploy the resources necessary to provision and test hundreds of systems each day; which are shipped to our customers fully racked and cabled for immediate integration.
       - >-
-        Created an environment for testing and metrics collection for a prototype nVME mesh storage solution that utilized remote direct disk access, allowing for ultra-low latency, ultra-high storage IO.
+        Created an environment for testing and metrics collection for a prototype mesh storage solution.
+        This utilized nVME drives and remote direct disk acccess (over ethernet) to provide ultra-low latency with ultra-high i/o operations.
       - >-
         Worked with the Principle CEPH Storage Engineer to better understand the management, deployment, and performance tuning of CEPH clusters.
       - >-
