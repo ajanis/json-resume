@@ -9,11 +9,11 @@ basics:
   email: alan.janis@gmail.com
   phone: (941) 286-3602
   summary: >-
-    My career began with Obsidian Hosting, a company I started to provide
-    scalable and secure deployment services for hosting multiplayer game
-    servers. Over 10 years of experience architecting and supporting highly
-    available solutions at massive scale enabled specialization in custom
-    tailored near-zero touch automated provisioning pipelines.
+    My interest and career began with Obsidian Hosting, a company I started to provide
+    simple deployment of multiplayer game servers, which I bundled with web hosting and voice chat services.  
+    As this grew, I started to focus more on systems administration, reliability, scalability, monitoring and automation.
+    A local webhosting company caught my interest because it would allow me to feed my interest with a larger team and resources I did not have otherwise. 
+    I came to colorado to further my professional interests in large scale infrastructure and personal interests on snow and whitewater.
   location:
     address: 11838 W Marlowe Ave
     postalCode: '80465'
@@ -37,23 +37,21 @@ work:
     position: Consulting Solutions Architect
     url: 'https://wwt.com'
     startDate: '2016'
-    summary: Providing customized solutions for high value clients.
+    summary: Providing customized tailored solutions for high value clients.
     highlights:
       - >-
-        Volunteered to assist on a project on the verge of losing a very high
-        value client. Worked on site, directly with client engineers to explore a conatainerized
-        deployment, provisioning, and management solution of resouces in an internal OpenStack cloud.
-        Deployment of my uniquely brilliant, intuive and maintainable design prompted 
-        immediate praise from the client; it earned me the WWT Engineer
-        of the Year award and invitation to train RedHat OpenStack engineers on VMIC architectural design.
+        Worked on site with a very high value client who wished to validate OpenStack reliability on an upcoming generation of hardware and
+        rethink their internal cloud design.
+        Together we developed tools to automate containerized deployment (pre- docker-openstack) and I guided the team in testing, deploying, 
+        managing, and monitoring their OpenStack cloud.
+        My unique, intuive and maintainable design prompted immediate praise from the client, for which I earned WWT's global service provider 
+        engineer of the year award.
       - >-
-        Built an automated build pipeline using Ansible Tower and Foreman.
-        Given specifications, systems were provisioned, imaged, built, configured,
-        and deployed at the push of button, empowering lab technicians and
-        removing the need for infrastructure service requests.
+        Developed an automated build pipeline using Ansible Tower and Foreman, which given minimal specifications allow our technicions
+        to deploy the resources necessary to provision and test hundreds of systems each day; which are shipped to our customers fully racked, cabled, and tested.
       - >-
-        Implemented a RDDA (Remote Direct Disk Access) NVMe mesh prototype for a client, proving 
-        throughput of TODO.
+        Created an environment for testing and metrics collection for a prototype nVME mesh storage solution that utilized remote direct disk access, 
+        allowing for ultra-low latency, ultra-high storage IO.
       - >-
         Consulted the first cross-divisional project team in building an
         automated solution to verify and remediate the hardware configuration,
@@ -67,7 +65,6 @@ work:
     url: 'https://massroots.com'
     startDate: '2015'
     endDate: '2016'
-    summary: Implementing best practices and enterprise level tooling for a niche social media startup.
     highlights:
       - >-
         Responsible for the redesign of the infrastructure to run the mobile
@@ -79,11 +76,9 @@ work:
         migration from Facebook's Parse Mobile App Platform.
       - >-
         Built out monitoring and alerting systems with Icinga, ELK stack,
-        Graphite, and collectd.
+        and TIG (Telegraph, InfluxDB, Grafana) stack.
       - >-
-        Deployed Salt for configuration, control, self-healing, and deployment
-        integrated with various cloud providers allowing for rapid deployment,
-        provision, and configuration of virtual machines in the cloud.
+        Deployed Salt for configuration, control, self-healing, and rapid deployment/scale of systems and services in a hybrid cloud environment.
       - >-
         Technologies used for infrastructure include Percona XtraDB Cluster,
         Salt, Icinga, Redis, Nginx, HAProxy, Node.js, ElasticSearch, Jenkins,
