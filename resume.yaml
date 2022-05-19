@@ -87,22 +87,19 @@ work:
   - name: Photobucket
     company: Photobucket
     location: 'Denver, CO'
-    description: Awesome compression company
-    position: Senior OpenStack Engineer
+    position: Senior Systems / OpenStack Engineer
     url: 'https://photobucket.com'
     startDate: '2012'
     endDate: '2015'
-    summary: Deploying and managing a massively scaled hosting solution for images and print orders.
+    summary: Deploying and managing a massively scaled hosting solution for photos and printing services.
     highlights:
       - >-
-        Lead on Photobucket's move to virtualization initiative. Transitioned
-        all edge, legacy, stage, development, and internal/tool services to
-        OpenStack. In addition, migrated all significant databases and
-        datastores to KVM virtual environments.
+        Worked with a small high-output team responsible for maintaining site reliability while also transitioning 
+        all significant services to an internal OpenStack cloud.
       - >-
         Principle engineer of private cloud environment using OpenStack
         (Grizzly, Icehouse) on Ubuntu (12.04, 14.04 respectively) built on Cisco
-        UCS B-Series blade hardware backed by NetApp clustered NFS storage.
+        UCS B-Series blade hardware, and backed by NetApp clustered NFS storage.
       - >-
         Shared responsibility of 22 Petabyes of storage, spread over 72 NetApp
         appliances (FAS6040, FAS3240, FAS3210, FAS2240, FAS2020) running OnTap
@@ -115,16 +112,12 @@ work:
         the release and ramp-up of the site redesign, given the data-ingest
         projections.
       - >-
-        Headed operations objective to test PureStorage and NetApp flash-based
-        SANs as the storage backend for databases, recently converted to KVM
-        guests running on UCS C-Series hardware. Project involved fiber-channel
-        switching/zoning configuration on Cisco UCS 6200 Fabric-Interconnects
-        and Linux FCoE & multipathd configuration on hypervisors, as well as,
-        configuring KVM to boot from SAN.
+        Headed a storage initiative to compare flash-based PureStorage against NetApp's latest flash-based storage as the backend for our newly virtualized databases.
+        Technologies used in this project allowed me to learn about fiber-channel switching/zoning configuration on Cisco UCS 6200 Fabric-Interconnects, Linux FCoE and multipathing, as well as
+        configuring the KVM virtual machines to boot from SAN.
   - name: Yahoo
     company: Yahoo
     location: 'Denver, CO'
-    description: Awesome compression company
     position: Senior Systems Engineer
     url: 'https://yahoo.com'
     startDate: '2010'
