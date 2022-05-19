@@ -53,6 +53,8 @@ work:
         Created an environment for testing and metrics collection for a prototype nVME mesh storage solution that utilized remote direct disk access, 
         allowing for ultra-low latency, ultra-high storage IO.
       - >-
+        Worked with the Principle CEPH Storage Engineer to better understand management, deployment, and performan tuning of CEPH clusters.
+      - >-
         Consulted the first cross-divisional project team in building an
         automated solution to verify and remediate the hardware configuration,
         health status, firmware and operating system version. Provided guidance
