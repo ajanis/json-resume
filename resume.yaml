@@ -93,7 +93,6 @@ work:
     url: 'https://photobucket.com'
     startDate: '2012'
     endDate: '2015'
-    summary: Deploying and managing a massively scaled hosting solution for photos and printing services.
     highlights:
       - >-
         Worked with a small high-output team responsible for maintaining site reliability while also transitioning 
