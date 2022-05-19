@@ -188,7 +188,7 @@ awards:
     date: '2014-11-01'
     awarder: Award Committee - World Wide Technology
     summary: Providing unwavering exceptional expertise, service, and professionalism
-  - title: Guest Speaker for Cisco at OpenStack summit.
+  - title: Guest Speaker for Cisco at OpenStack summit
     date: '2013-04'
     summary: I was Invited by Cisco's OpenStack team to speak to their engineers about my experiences, improvements, and pitfalls I had found through deploying OpenStack on Cisco UCS hardware.  These experiences were contributed to their official documentation.
 
