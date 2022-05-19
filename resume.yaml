@@ -49,7 +49,7 @@ work:
         Created an environment for testing and metrics collection for a prototype mesh storage solution.
         This utilized nVME drives and remote direct disk acccess (over ethernet) to provide ultra-low latency with ultra-high i/o operations.
       - >-
-        Worked with the Principle CEPH Storage Engineer to better understand the management, deployment, and performance tuning of CEPH clusters.
+        Worked with the Principle Ceph Storage Engineer to better understand the management, deployment, and performance tuning of Ceph clusters.
       - >-
         Consulted the first cross-divisional project team in building an automated solution to verify and remediate the hardware configuration,  health status, firmware, and operating system version. Provided guidance related to setting up a PXE boot environment for hardware and system configuration, automated firmware remediation, and reporting.
   - name: MassRoots
@@ -162,13 +162,13 @@ work:
         Solely responsible for streamlining the customer sales and support processes to ensure efficiency and an excellent user experience.
 projects:
   - name: HomeLab
-    description: 136 cores and 384GB RAM dedicated to various home / media services.  This is backed by a 4-node, 180TB CEPH cluster.
+    description: 136 cores and 384GB RAM dedicated to various home / media services.  This is backed by a 4-node, 180TB Ceph cluster.
     highlights:
-      - Running and maintaining my CEPH cluster has served as a great learning platform, providing reliable and cost-effective storage.
+      - Running and maintaining my Ceph cluster has served as a great learning platform, providing reliable and cost-effective storage.
       - I apply tools and knowledge I've built to simplify and automate my home network to learn for work and vice-versa.
       - I have automated metrics collection as a part of my build pipeline to monitor systems and services.
     keywords:
-      - CEPH
+      - Ceph
       - KVM
       - Virtualization
       - Docker
