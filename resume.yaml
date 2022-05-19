@@ -64,7 +64,7 @@ work:
         Responsible for the redesign of the infrastructure to run the mobile application, revamping the entire backend infrastructure to a hybrid  platform on AWS, Openstack, and KVM+Vagrant.
         My team was responsible for developing API services using Node.js, Express.js, Redis, Percona XtradDB Cluster, and Nginx to facilitate  migration from Facebook's Parse Mobile App Platform.
       - >-
-        Built out monitoring and alerting systems with Icinga, ELK stack, and TIG (Telegraph, InfluxDB, Grafana) stack.
+        Built out monitoring and alerting systems with Icinga, ELK stack, and TIG (Telegraf, InfluxDB, Grafana) stack.
       - >-
         Deployed Salt for configuration, control, self-healing, and rapid deployment/scale of systems and services in a hybrid cloud environment.
       - >-
