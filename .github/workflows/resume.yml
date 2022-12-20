@@ -37,8 +37,8 @@ jobs:
         with:
           #!theme: caffeine
           ##theme: mocha-responsive
-          #!theme: slick
-          theme: verbum
+          theme: slick
+          #!theme: verbum
           ##theme: techlead
           ##theme: paper
           ##theme: autumn
