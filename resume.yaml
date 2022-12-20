@@ -1,7 +1,8 @@
 $schema: 'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json'
 basics:
   name: Alan Janis
-  label: Scalable-Infrastructure, Private-Cloud, Distributed-Storage, Metrics-Collection, Log-Aggregation, Data-Ingest, Monitoring, Graphing, Alerting, Site-Reliability, Full-Stack-Automation, Performance-Tuning, R&D
+  label: >-
+    Scalable-Infrastructure, Private-Cloud, Distributed-Storage, Metrics-Collection, Log-Aggregation, Data-Ingest, Monitoring, Graphing, Alerting, Site-Reliability, Full-Stack-Automation, Performance-Tuning, R&D
   image: >-
     sig-memoji2.png
   picture: >-
