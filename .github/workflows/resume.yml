@@ -40,8 +40,8 @@ jobs:
           #!theme: slick
           #!theme: verbum
           ##theme: techlead
-          theme: paper
-          #theme: autumn
+          ##theme: paper
+          theme: autumn
           #theme: spartun
           #theme: eloquent-mod
           #theme: wraypro
