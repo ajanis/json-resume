@@ -35,7 +35,7 @@ jobs:
       - uses: constructorfleet/action-jsonresume-export@v1.0
         name: Export resume as HTML
         with:
-          theme: slick
+          theme: papyrus
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: docs/index.html
