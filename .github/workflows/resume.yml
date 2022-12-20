@@ -41,8 +41,8 @@ jobs:
           #!theme: verbum
           ##theme: techlead
           ##theme: paper
-          theme: autumn
-          #theme: spartun
+          ##theme: autumn
+          theme: spartun
           #theme: eloquent-mod
           #theme: wraypro
           resume_filepath: resume.json
