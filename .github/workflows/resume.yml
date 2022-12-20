@@ -39,8 +39,8 @@ jobs:
           ##theme: mocha-responsive
           #!theme: slick
           #!theme: verbum
-          theme: techlead
-          #theme: paper
+          ##theme: techlead
+          theme: paper
           #theme: autumn
           #theme: spartun
           #theme: eloquent-mod
