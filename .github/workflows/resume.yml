@@ -35,11 +35,11 @@ jobs:
       - uses: constructorfleet/action-jsonresume-export@v1.0
         name: Export resume as HTML
         with:
-          #theme: caffeine
-          #theme: mocha-responsive
-          #theme: slick
-          theme: verbum
-          #theme: techlead
+          #!theme: caffeine
+          ##theme: mocha-responsive
+          #!theme: slick
+          #!theme: verbum
+          theme: techlead
           #theme: paper
           #theme: autumn
           #theme: spartun
