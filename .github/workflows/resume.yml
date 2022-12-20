@@ -61,7 +61,7 @@ jobs:
           fi
       - name: Push changes
         uses: ad-m/github-push-action@master
-        if: steps.commit.outputs.exit_code == 0
+#        if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           force: true
