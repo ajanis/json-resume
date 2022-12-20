@@ -36,8 +36,8 @@ jobs:
         name: Export resume as HTML
         with:
           #theme: caffeine
-          theme: mocha-responsive
-          #theme: slick
+          #theme: mocha-responsive
+          theme: slick
           #theme: verbum
           #theme: techlead
           #theme: paper
