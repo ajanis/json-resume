@@ -35,7 +35,16 @@ jobs:
       - uses: constructorfleet/action-jsonresume-export@v1.0
         name: Export resume as HTML
         with:
-          theme: wraypro
+          theme: caffeine
+          #theme: mocha-responsive
+          #theme: slick
+          #theme: verbum
+          #theme: techlead
+          #theme: paper
+          #theme: autumn
+          #theme: spartun
+          #theme: eloquent-mod
+          #theme: wraypro
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: docs/index.html
