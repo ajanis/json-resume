@@ -52,8 +52,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain docs/index.html)" ]; then
-            git add docs/index.html
+          if [ -n "$(git status --porcelain docs)" ]; then
+            git add docs/
             git commit -m "[ci skip] chore(docs/index.html): update resume page"
             echo ::set-output name=exit_code::0
           else
