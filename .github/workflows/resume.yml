@@ -39,9 +39,9 @@ jobs:
           ##theme: mocha-responsive
           ##theme: slick
           #!theme: verbum
-          theme: techlead
+          ##theme: techlead
           ##theme: paper
-          ##theme: autumn
+          theme: autumn
           #!theme: eloquent-mod
           #theme: wraypro
           resume_filepath: resume.json
