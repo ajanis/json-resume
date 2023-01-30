@@ -38,11 +38,11 @@ jobs:
           #theme: caffeine-mod
           ##theme: mocha-responsive
           #!theme: slick
-          theme: verbum
+          #!theme: verbum
           ##theme: techlead
           ##theme: paper
           ##theme: autumn
-          #!theme: eloquent-mod
+          theme: eloquent-mod
           #theme: wraypro
           resume_filepath: resume.json
           # modifies the index.html in-place
