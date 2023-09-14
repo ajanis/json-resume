@@ -1,26 +1,30 @@
 $schema: 'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json'
+
 basics:
   name: Alan Janis
   label: >-
-    Scalable-Infrastructure, Private-Cloud, Distributed-Storage, Metrics-Collection, Log-Aggregation, Data-Ingest, Monitoring, Graphing, Alerting, Site-Reliability, Full-Stack-Automation, Performance-Tuning, R&D
+    Scalable Infrastructure • Private Cloud • Distributed Storage • Metrics Collection • Log Aggregation • Data Ingest • Monitoring • Graphing • Alerting • Site Reliability • Full Stack Automation • Performance Tuning • R&D
   image: >-
     sig-memoji2.png
   picture: >-
     sig-memoji2.png
   email: alanjanis@alantotally.rocks
   phone: (941) 286-3602
+
   summary: >-
-    My career path began with Obsidian Hosting, a company I started to provide
-    	 simple deployment of multiplayer game servers, which I bundled with voice chat and a variety of webhosting services.
-    	 As this grew, I started to focus more on systems administration, reliability, scalability, monitoring, and automation.
-    	 A local web hosting company job opening caught my attention because it would allow me to access resources I did not have otherwise, and learn from more experienced engineers.
-    	 I moved to Colorado in 2010 to further my professional interests in large-scale infrastructure and personal interests in snow and whitewater.
+    I think more people should build a private cloud with distributed & tiered storage, learn the tools to deploy it and collect the data to see into it.  At home.  For fun.*
+      I do this just to support everyday home automation and entertainment.
+      My career path began with Obsidian Hosting, a company I started to provide simple deployment of multiplayer game servers, which I bundled with voice chat and a variety of web hosting services. As I grew that infrastructure on a budget, I came to appreciate the open-source community. I repurposed old hardware for my home network and started looking for reasons to integrate any project that grabbed my attention.  Not long after, I took a position with a local web hosting company for the opportunity to learn from an experienced team in a large-scale, high-uptime environment.
+      In 2010, a senior role with Yahoo brought me to Colorado, where the thriving dev community has continued to shape my personal and professional relationships.
+      In addition to the snow, rivers, and mountains, 'building cool things' remains at the top of my passions.
+
   location:
     address: 11838 W Marlowe Ave
     postalCode: '80465'
     city: Morrison
     countryCode: US
     region: CO
+
   profiles:
     - network: GitHub
       username: '@ajanis'
@@ -31,72 +35,90 @@ basics:
     - network: LinkedIn
       username: AlanJanis
       url: 'https://www.linkedin.com/in/alanjanis/'
+
 work:
+  - name: Marriott
+    company: Marriott
+    location: 'Bethesda, MA'
+    position: Senior Systems Engineer (6mo Contract)
+    url: 'https://www.marriott.com'
+    startDate: '2023-04'
+    endDate: '2023-09'
+    highlights:
+      - >-
+        Support initiative to modernize/automate CDN Environments
+      - >-
+        As part of the CDN (Akamai) Team, I was tasked with creating scripts and workflows to assist our team in supporting our internal customer needs.
+      - >-
+        Worked alongside our principal architect during early planning stages to codify CDN configuration and bring existing and future environments into sync and under revision control.
+      - >-
+        Rebuilt a suite of utilities used by dev/ops teams across the business to shape and validate web traffic across development and production environments.
+      - >-
+        Built new CDN purge utilities as part of a mentoring project with a student intern.  Over a series of paired working calls, we created and packaged a CLI tool and an associated AWS Lambda function that can be easily used by individuals or as part of automation processes.  While this was a relatively simple script, we discussed and implemented common and recommended tools for revision control (Git), dependency management (Pyenv, Poetry),  package management (PyPI/Homebrew), and process automation (Ansible).  The student presented the project to our team's management chain as a successful goal for the internship.
+
   - name: World Wide Technology
     company: World Wide Technology
     location: 'Denver, CO'
     position: Consulting Solutions Architect
     url: 'https://wwt.com'
-    startDate: '2016'
+    startDate: '2016-01'
+    endDate: '2023-03'
     summary: Providing customized tailored solutions for high value clients.
     highlights:
       - >-
-        Worked on-site with a very high-value client who wished to validate OpenStack reliability on an upcoming generation of hardware and rethink their internal cloud design.
-        Together we developed tools to automate containerized deployment (pre- docker-openstack) and I guided the team in testing, deploying, managing, and monitoring their OpenStack cloud.
-        My unique, intuitive and maintainable design prompted immediate praise from the client, for which I earned WWT's global service provider engineer of the year award.
+        Worked on-site with a very high-value client who wished to validate OpenStack reliability on an upcoming generation of hardware and rethink their internal cloud design. Together we developed tools to automate containerized deployment (pre- docker-openstack) and I guided the team in testing, deploying, managing, and monitoring their OpenStack cloud. My unique, intuitive and maintainable design prompted immediate praise from the client, for which I earned WWT's global service provider engineer of the year award.
       - >-
         Developed an automated build pipeline using Ansible Tower and Foreman, which, given minimal specifications, allows our technicians to deploy the resources necessary to provision and test hundreds of systems each day; which are shipped to our customers fully racked and cabled for immediate integration.
       - >-
-        Created an environment for testing and metrics collection for a prototype mesh storage solution.
-        This utilized nVME drives and remote direct disk acccess (over ethernet) to provide ultra-low latency with ultra-high i/o operations.
+        Created an environment for testing and metrics collection for a prototype mesh storage solution. This utilized nVME drives and remote direct disk access (over ethernet) to provide ultra-low latency with ultra-high i/o operations.
       - >-
         Worked with the Principle Ceph Storage Engineer to better understand the management, deployment, and performance tuning of Ceph clusters.
       - >-
-        Consulted the first cross-divisional project team in building an automated solution to verify and remediate the hardware configuration,  health status, firmware, and operating system version. Provided guidance related to setting up a PXE boot environment for hardware and system configuration, automated firmware remediation, and reporting.
+        Consulted the first cross-divisional project team in building an automated solution to verify and remediate the hardware configuration, health status, firmware, and operating system version. Provided guidance related to setting up a PXE boot environment for hardware and system configuration, automated firmware remediation, and reporting.
+
   - name: MassRoots
     company: MassRoots
     location: 'Denver, CO'
     position: Director of Technology
     url: 'https://massroots.com'
-    startDate: '2015'
-    endDate: '2016'
+    startDate: '2015-01'
+    endDate: '2016-01'
     highlights:
       - >-
-        Responsible for the redesign of the infrastructure to run the mobile application, revamping the entire backend infrastructure to a hybrid  platform on AWS, Openstack, and KVM+Vagrant.
-        My team was responsible for developing API services using Node.js, Express.js, Redis, Percona XtradDB Cluster, and Nginx to facilitate  migration from Facebook's Parse Mobile App Platform.
+        Responsible for the redesign of the infrastructure to run the mobile application, revamping the entire backend infrastructure to a hybrid platform on AWS, OpenStack, and KVM+Vagrant. My team was responsible for developing API services using Node.js, Express.js, Redis, Percona XtradDB Cluster, and Nginx to facilitate migration from Facebook's Parse Mobile App Platform.
       - >-
         Built out monitoring and alerting systems with Icinga, ELK stack, and TIG (Telegraf, InfluxDB, Grafana) stack.
       - >-
         Deployed Salt for configuration, control, self-healing, and rapid deployment/scale of systems and services in a hybrid cloud environment.
       - >-
         Technologies used for infrastructure include Percona XtraDB Cluster, Salt, Icinga, Redis, Nginx, HAProxy, Node.js, ElasticSearch, Jenkins, KVM, Vagrant, Amazon Web Services (EC2, S3 Primarily), LDAP, PFSense, OpenVPN.
+
   - name: Photobucket
     company: Photobucket
     location: 'Denver, CO'
-    position: Senior Systems / OpenStack Engineer
+    position: Prinicipal OpenStack Engineer
     url: 'https://photobucket.com'
-    startDate: '2012'
-    endDate: '2015'
+    startDate: '2012-01'
+    endDate: '2015-01'
     highlights:
       - >-
         Worked with a small high-output team responsible for maintaining site reliability while also transitioning all significant services to an internal OpenStack cloud.
       - >-
-        Principle engineer of private cloud environment using OpenStack (Grizzly, Icehouse) on Ubuntu (12.04, 14.04 respectively) built on Cisco UCS B-Series blade hardware, and backed by NetApp clustered NFS storage.
+        Principal engineer of private cloud environment using OpenStack (Grizzly, Icehouse) on Ubuntu (12.04, 14.04 respectively) built on Cisco UCS B-Series blade hardware, and backed by NetApp clustered NFS storage.
       - >-
-        Shared responsibility of 22 Petabyes of storage, spread over 72 NetApp appliances (FAS6040, FAS3240, FAS3210, FAS2240, FAS2020) running OnTap 7.1.1 - 8.1.1 in 7-Mode and Clustered-Mode.
+        Shared responsibility for 22 Petabytes of storage, spread over 72 NetApp appliances (FAS6040, FAS3240, FAS3210, FAS2240, FAS2020) running OnTap 7.1.1 - 8.1.1 in 7-Mode and Clustered-Mode.
       - >-
-        Developed custom storage balancing tools required to move roughly 6 Petabytes of data out of NetApp tradvols and into 64-bit flexvols.
-        Managed rebalancing data across the existing 32-bit flexvols to begin the upgrade process to 64-bit flexvols essential to the release and ramp-up of the site redesign, given the data-ingest projections.
+        Developed custom storage balancing tools required to move roughly 6 Petabytes of data out of NetApp TradVols and into 64-bit FlexVols. Managed rebalancing data across the existing 32-bit FlexVols to begin the upgrade process to 64-bit FlexVols essential to the release and ramp-up of the site redesign, given the data-ingest projections.
       - >-
-        Headed a storage initiative to compare flash-based PureStorage against NetApp's latest flash-based storage as the backend for our newly virtualized databases.
-        Technologies used in this project allowed me to learn about fiber-channel switching/zoning configuration on Cisco UCS 6200 Fabric-Interconnects, Linux FCoE, and multipathing, as well as configuring the KVM virtual machines to boot from SAN.
+        Headed a storage initiative to compare flash-based PureStorage against NetApp's latest flash-based storage as the backend for our newly virtualized databases. Technologies used in this project allowed me to learn about fiber-channel switching/zoning configuration on Cisco UCS 6200 Fabric-Interconnects, Linux FCoE, and multipathing, as well as configuring the KVM virtual machines to boot from SAN.
+
   - name: Yahoo
     company: Yahoo
     location: 'Denver, CO'
     position: Senior Systems Engineer
     url: 'https://yahoo.com'
-    startDate: '2010'
-    endDate: '2012'
+    startDate: '2010-01'
+    endDate: '2012-01'
     highlights:
       - >-
         Managed the deployment of the Yahoo! Contributor Network including network and hardware specifications, system provisioning, QA process, and launch.
@@ -111,78 +133,85 @@ work:
       - >-
         Managed the Denver office integration with Yahoo's corporate network, completing this several months ahead of Yahoo! projections. This included building out the IDF room to spec concerning cooling and power, redundant network stacks, cabling, and buildout/migration of all development environments.
       - >-
-        Co-Managed the Yahoo Contributor Network site release in the US, UK, and Brazil.
+        Co-managed the Yahoo Contributor Network site release in the US, UK, and Brazil.
       - >-
         Worked closely with our development team to consistently improve site and application performance as our contributor base grew to over 500,000 and our publishing platform moved towards internationalization, planning for growth accordingly.
+
   - name: A2 Hosting
     company: A2 Hosting
     location: 'Ann Arbor, MI'
     description: Awesome compression company
     position: Lead Systems Administrator
     url: 'https://a2hosting.com'
-    startDate: '2008'
-    endDate: '2010'
+    startDate: '2008-01'
+    endDate: '2010-01'
     highlights:
       - >-
         Responsible for maintaining the hardware and software of more than 250 CentOS servers in a high-availability environment.
       - >-
-        Through my redesign of the existing kickstart provisioning build system,  we achieved nearly zero-touch provisioning of systems.
+        Through my redesign of the existing kickstart provisioning build system, we achieved nearly zero-touch provisioning of systems.
       - >-
         Implemented a new, fully redundant, multi-gigabit network using 25-pair / 50-pin telco modules to eliminate rack-confined switches, greatly simplifying network architecture.
       - >-
-        Deployed a network of serial console servers with improved network-boot options, reducing the need for hands-on software repairs by 60%.
+        Deployed a network of serial console servers with improved network boot options, reducing the need for hands-on software repairs by 60%.
       - >-
         Deployed in-house iSCSI storage solution on Supermicro chassis to migrate onboard storage of customer data to more robust and secure SANs.
       - >-
         Responsible for fully training our systems administration team focused on advanced troubleshooting techniques, system maintenance tooling and procedures, and methods for providing exceptional customer care.
+
   - name: Obsidian Hosting Networks
     company: Obsidian Hosting Networks
     location: 'Chicago, IL'
-    position: Systems Administrator / Owner
+    position: Systems Administrator / Co-Owner
     url: 'https://obsidianhosting.net'
-    startDate: '2002'
-    endDate: '2008'
+    startDate: '2002-01'
+    endDate: '2008-01'
     summary: Game server hosting for everyone.
     highlights:
       - >-
-        Responsible for ordering, building, and racking 50 Fedora Core 4 webservers.
+        Built, racked, cabled and configured 50 Fedora Core 4 webservers.
       - >-
         Maintained remote and on-site hardware, software, installation, and deployments of cPanel and WHM software.
       - >-
         Executed deployments of ModernBill and then WHMCS billing and client areas.
-      - Configured DNS clustering with BIND.
       - >-
-        Managed our Apache webserver deployment as one of the first companies
-        offering developer-friendly PHP 5 web-hosting in addition to multiple
-        PHP-CGI options; are now utilized by dozens of shared-hosting vendors.
+        Configured DNS clustering with BIND.
       - >-
-        Oversaw our upgrade to PHP5, ensuring that the change went smoothly for customers, and managed the manual migration of over 500 websites (including email) from a non cPanel environment to our systems.
+        Managed our Apache webserver deployment as one of the first companies offering developer-friendly PHP 5 web hosting in addition to multiple PHP-CGI options now utilized by dozens of shared hosting vendors.
+      - >-
+        Oversaw our upgrade to PHP5, ensuring that the change went smoothly for customers, and managed the manual migration of over 500 websites (including email) from a non-cPanel environment to our systems.
       - >-
         Deployed our internal network to handle monitoring, backups, and remote administration.
       - >-
         Solely responsible for streamlining the customer sales and support processes to ensure efficiency and an excellent user experience.
+
 projects:
   - name: HomeLab
-    description: 136 cores and 384GB RAM dedicated to various home / media services.  This is backed by a 4-node, 180TB Ceph cluster.
+    description: Highly Available compute cluster with distributed, tiered storage dedicated to home automation, image-processing, media services and education/R&D projects.
     highlights:
+      - Converged, highly-available compute environment with 224 CPU cores, 512GB RAM, 4x Nvidia Quadro P1000 (SR-IOV) GPUs, 10TB SSD Ceph Cluster (Rados Block Device)
+      - 110TB SAS3 Ceph Cluster (CephFS)
+      - Dedicated Machine-Learning, Image Processing, and Home-Automation environment
+      - 10gbit and 25gbit network
       - Running and maintaining my Ceph cluster has served as a great learning platform, providing reliable and cost-effective storage.
       - I apply tools and knowledge I've built to simplify and automate my home network to learn for work and vice-versa.
       - I have automated metrics collection as a part of my build pipeline to monitor systems and services.
+      - Golden images are used for both KVM and LXC environments with Ansible handling final configuration.
     keywords:
+      - Proxmox
       - Ceph
       - KVM
-      - Virtualization
+      - LXC
       - Docker
-      - Provisioning
-      - Configuration
-      - Automation
-      - Metrics
-      - Grafana
-      - InfluxDB
+      - Ubiquiti
+      - Ansible
+      - Home Automation
+      - IoT
+      - Grafana/Loki
+      - InfluxDB OSS2
       - Prometheus
-      - TimescaleDB
       - Plex
-    website: "https://stats.prettybaked.com"
+    website: "https://stats.constructorfleet.stream"
 
 awards:
   - title: Engineer of the Year
@@ -194,112 +223,91 @@ awards:
     summary: I was Invited by Cisco's OpenStack team to speak to their engineers about my experiences, improvements, and pitfalls I had found through deploying OpenStack on Cisco UCS hardware.  These experiences were contributed to their official documentation.
 
 skills:
-  - name: Systems
+  - name: Linux Distributions
     keywords:
-      - CentOS
-      - Fedora Core
-      - RHEL
-      - Ubuntu
-      - Gentoo Linux
-      - OS-X
-      - Windows
-  - name: Virtualization
+      - RHEL/RHEL-based
+      - Debian/Debian-based
+  - name: Config/Build Automation
+    keywords:
+      - PXE/Kickstart/Preseed
+      - Ansible
+      - Saltstack
+      - Terraform
+      - Docker-Compose
+      - Cloud-Config
+  - name: VM
+    keywords:
+      - KVM/libvirt
+      - ECS
+      - VMWare/ESXi
+  - name: Container
+    keywords:
+      - Docker
+      - Podman
+      - LXC
+  - name: Cloud
     keywords:
       - OpenStack
-      - KVM
-      - VMWare ESXi 4/5
-      - XenServer
-  - name: Webservers
+      - AWS
+  - name: Webservers/Proxy/Load Balancing
     keywords:
-      - Apache
-      - Lighttpd
       - NGINX
-      - Apache Tomcat
+      - Apache
+      - HAProxy
+      - Traefik
+      - F5
+      - A10
   - name: Nameservers
     keywords:
       - BIND
       - PowerDNS
-      - NSD
-      - Akamai GSLB
+      - DNSMasq
   - name: Database
     keywords:
-      - MySQL
-      - Percona XtraDB Cluster
-      - Galera
-      - PostgreSQL 8
+      - MySQL/Galera
+      - MySQL Variants
+      - PostgreSQL
   - name: Storage
     keywords:
-      - ISCSI
-      - DAS
-      - NFS
-      - ATAoE
-      - Fibre Channel
-      - NetApp 7-Mode Certified
-  - name: Load Balancing
+      - NetApp
+        - 7-Mode Certified, Clustered-Mode Certified
+      - Ceph
+        - CephFS, RBD
+      - Protocols
+        - ISCSI, DAS, NFS, ATAoE, Fibre Channel
+  - name: CDN/Caching
     keywords:
-      - F5
-      - A10
-      - HAProxy
+      - Akamai
+      - Level3
+      - NGINX
+      - Squid
+      - Varnish
+      - Memcached
   - name: Version Control
     keywords:
-      - Git
-      - Mercurial
-      - Subversion
+      - Git/Github
   - name: Package Management
     keywords:
-      - YUM
-      - RPM
-      - Aptitude
-      - DPKG
-  - name: Configuration / Build Automation
-    keywords:
-      - PXE
-      - Kickstart
-      - Preseed
-      - Foreman
-      - Cobbler
-      - Ansible
-      - Salt
-      - Puppet
-      - Chef
-      - Cfengine
+      - RPM/Yum
+      - DPKG/Apt
+      - Pipenv
+      - Poetry
+      - Homebrew
   - name: Monitoring / Logging
     keywords:
-      - InfluxDB
+      - InfluxDB/TickStack
       - Grafana
       - Nagios
-      - Xymon
       - Zabbix
-      - Cacti
-      - Splunk
       - Logstash
-      - TimescaleDB
       - Prometheus
   - name: Languages
     keywords:
       - Bash
       - Python
-      - Perl
-      - PHP
-  - name: CDN / Caching
-    keywords:
-      - Akamai
-      - Level3
-      - Squid
-      - Varnish
-      - Memcached
-      - APC
   - name: Network / Firewall
     keywords:
-      - Cisco IOS
-      - Brocade/Foundry
+      - Cisco IOS/IOS-like
       - Iptables
-      - Juniper SSG
-      - Cisco ASA
-      - CheckPoint
       - PFSense
       - OPNSense
-  - name: Mail Servers
-    keywords:
-      - Postfix
-      - Courier
