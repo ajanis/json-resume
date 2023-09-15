@@ -10,10 +10,26 @@
     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     body {
-      background: #D2D4D3;
+      background: #ffffff;
       font: 15px Arial, Helvetica, sans-serif;
       line-height: 1.4;
-      color: #929292;
+      color: #575757;
+    }
+
+    .label-default {
+      background-color: rgb(125, 125, 125);
+      color: rgb(255, 255, 255)
+    }
+
+    .label-roletag {
+      background-color: #657c8e;
+    }
+
+    .label-awardtag {
+      background-color: rgb(125, 125, 125);
+      color: rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
+      font-size: 1em;
     }
 
     .container {
@@ -59,14 +75,17 @@
     /* Sidebar */
     .sidebar {
       padding: 2rem;
-      background: #E6EAED !important;
+      background: #f5f5f5 !important;
       margin-bottom: -99999px;
       padding-bottom: 99999px;
+      border-right-color: #c7c7c7;
+      border-right-style: solid;
+      border-right-width: 0.1em;
     }
 
     .sidebar,
     .sidebar h1 {
-      color: #656567 !important;
+      color: #232323 !important;
     }
 
     .sidebar h2 {
@@ -77,7 +96,7 @@
       letter-spacing: 0.5rem;
       font-weight: bold;
       margin-bottom: 2rem !important;
-      background: #646466;
+      background: #657c8e;
       padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
     }
 
@@ -140,23 +159,23 @@
     }
 
     .content h1 {
-      color: #3C3C3C;
+      color: #466886;
       text-transform: uppercase;
       text-align: center;
       font-size: 4rem;
       letter-spacing: 1.0rem;
-      font-weight: bold;
+      font-weight: bolder
     }
 
     .content h2 {
-      color: #646466;
+      color: #ffffff;
       text-transform: uppercase;
       text-align: center;
       font-size: 1.5rem;
       letter-spacing: 0.5rem;
-      font-weight: bold;
+      font-weight: bolder;
       margin-bottom: 1rem !important;
-      background: #E6EAED;
+      background: #657c8e;
       padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
     }
 
@@ -170,7 +189,6 @@
     /* Sections */
     .section-name {
       margin: 0rem 0 5rem 0;
-      background: #E6EAED;
       padding: 6rem 0 4rem 0;
     }
 
@@ -198,8 +216,9 @@
     }
 
     .section-work .item .position {
-      font-weight: bold;
-      color: #252324;
+      font-weight: bolder;
+      color: #657c8e;
+      font-size: 1.2em;
       text-transform: uppercase;
     }
 
@@ -209,7 +228,11 @@
       font-weight: bold;
     }
 
-    .section-work .item .summary,
+    .section-work .item .summary {
+      font-style: italic;
+      font-weight: normal;
+    }
+
     .section-work .item .highlights {
       font-style: italic;
       text-align: justify;
@@ -260,20 +283,30 @@
     }
 
     .section-awards .item .title {
-      font-weight: bold;
-      color: #252324;
+      font-weight: regular;
+      color: #707070;
+      margin-bottom: 1em;
+      margin-top: 1.5em;
     }
 
     .section-awards .item .date,
     .section-awards .item .awarder {
       font-weight: normal;
-      color: #929292;
+      color: #252324
     }
 
     .section-awards .item .summary {
-      font-weight: normal;
-      font-style: italic;
-      text-align: justify;
+      font-weight: bold;
+      margin-top: .5em;
+      margin-bottom: 1em;
+      color: #466886
+    }
+
+    .section-awards .item .details {
+      font-weight: regular;
+      margin-top: .5em;
+      color: #707070"
+
     }
 
     .section-languages .item .language {
@@ -302,7 +335,7 @@
 
     .section-contact .fa {
       padding: 0.8rem 0 0 0;
-      color: #646466;
+      color: #657c8e;
       text-align: center;
       display: block;
       margin: 0 auto 0.8rem auto;
@@ -469,211 +502,6 @@
         display: inline-block !important;
         margin-bottom: 0.3rem !important;
       }
-
-      /* Content */
-      .content {
-        padding: 0 3rem 0 2rem;
-        padding-bottom: 0px;
-        background: #FFFFFF;
-        margin-bottom: -99999px;
-        padding-bottom: 99999px;
-      }
-
-      .content h1 {
-        color: #3C3C3C;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 4rem;
-        letter-spacing: 1.0rem;
-        font-weight: bold;
-      }
-
-      .content h2 {
-        color: #646466 !important;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1.5rem !important;
-        letter-spacing: 0.5rem;
-        font-weight: bold;
-        margin-bottom: 1rem !important;
-        background: #E6EAED !important;
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
-      }
-
-      .content a:link,
-      .content a:hover,
-      .content a:visited {
-        text-decoration: none;
-        color: #6D6D6D;
-      }
-
-      /* Sections */
-      .section-name {
-        margin: 0rem 0 5rem 0 !important;
-        background: #E6EAED !important;
-        padding: 6rem 0 4rem 0 !important;
-      }
-
-      .section-name h1 {
-        font-size: 2.8rem !important;
-        font-weight: bold !important;
-      }
-
-      .section-name h2 {
-        color: #6D6D6D !important;
-        text-transform: capitalize;
-        text-align: center;
-        font-size: 1.5rem !important;
-        letter-spacing: 0.5rem;
-        font-weight: bold;
-        margin-top: 5rem;
-        background: none;
-      }
-
-      .section-summary {
-        text-align: justify;
-      }
-
-      .section-work .item {
-        margin-bottom: 2.5rem;
-      }
-
-      .section-work .item .position {
-        font-weight: bold;
-        color: #252324;
-        text-transform: uppercase;
-      }
-
-      .section-work .item .company {
-        padding: 0.5rem 0 0.5rem 0;
-        color: #605E5F;
-        font-weight: bold;
-      }
-
-      .section-work .item .summary,
-      .section-work .item .highlights {
-        font-style: italic;
-        text-align: justify;
-      }
-
-      .section-volunteer .item {
-        margin-bottom: 2.5rem;
-      }
-
-      .section-volunteer .item .position {
-        font-weight: bold;
-        color: #252324;
-        text-transform: uppercase;
-      }
-
-      .section-volunteer .item .company {
-        padding: 0.5rem 0 0.5rem 0;
-        color: #6D6D6D;
-        font-weight: bold;
-      }
-
-      .section-volunteer .item .summary,
-      .section-volunteer .item .highlights {
-        font-style: italic;
-        text-align: justify;
-      }
-
-      .section-publications .item {
-        margin-bottom: 2.5rem;
-      }
-
-      .section-publications .item .name {
-        font-weight: bold;
-        color: #252324;
-        text-transform: uppercase;
-      }
-
-      .section-publications .item .publication {
-        padding: 0.5rem 0 0.5rem 0;
-        color: #6D6D6D;
-        font-weight: bold;
-      }
-
-      .section-publications .item .summary,
-      .section-publications .item .highlights {
-        font-style: italic;
-        text-align: justify;
-      }
-
-      .section-awards .item .title {
-        font-weight: bold;
-        color: #252324;
-      }
-
-      .section-awards .item .date,
-      .section-awards .item .awarder {
-        font-weight: normal;
-        color: #929292;
-      }
-
-      .section-awards .item .summary {
-        font-weight: normal;
-        font-style: italic;
-        text-align: justify;
-      }
-
-      .section-languages .item .language {
-        font-weight: bold;
-        color: #252324;
-      }
-
-      .section-languages .item .fluency {
-        font-weight: normal;
-        color: #929292;
-      }
-
-      .section-interests .title {
-        font-weight: bold;
-      }
-
-      .section-interests .item {
-        margin: 0.8rem 0 0.8rem 0;
-        line-height: 1.9rem;
-      }
-
-      .section-skills .item {
-        margin-bottom: 1rem;
-        text-align: center;
-      }
-
-      .section-contact .fa {
-        padding: 0.8rem 0 0 0;
-        color: #646466 !important;
-        text-align: center;
-        display: block;
-        margin: 0 auto 0.8rem auto;
-      }
-
-      .section-contact ul.contact {
-        list-style-type: none;
-        margin: 0.5rem 0 0.5rem 0;
-        padding: 0;
-      }
-
-      .section-contact ul.contact li {
-        margin: 1rem 0 1rem 0;
-        text-align: center;
-      }
-
-      .section-contact ul.profiles {
-        list-style-type: none;
-        margin: 4rem 0 0.5rem 0;
-        padding: 0;
-      }
-
-      .section-contact ul.profiles li {
-        margin: 1rem 0 1rem 0;
-      }
-
-      .section-contact ul li span {
-        text-align: center;
-        display: inherit;
-      }
     }
   </style>
 </head>
@@ -684,7 +512,7 @@
       <div class="col-xs-4 sidebar">
         <section class="section-basic">
           <div class="avatar">
-            <img src="sig-memoji2.png" alt="Alan Janis" class="img-circle">
+            <img src="sig-memoji1.png" alt="Alan Janis" class="img-circle">
           </div>
         </section>
         <section class="section-contact">
@@ -927,7 +755,6 @@
             <div class="position">
               Senior Systems Engineer
             </div>
-            <span class="label label-default">Akamai</span>
             <div class="company">
               <span class="name">
                 Marriott
@@ -944,6 +771,9 @@
                   (6 months)
                 </span>
               </span>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">Akamai</span>
             </div>
             <ul class="highlights">
               <li>Support initiative to modernize/automate CDN Environments</li>
@@ -968,8 +798,6 @@
             <div class="position">
               Consulting Solutions Architect
             </div>
-            <span class="label label-default">OpenStack</span>
-            <span class="label label-default">Ceph</span>
             <div class="company">
               <span class="name">
                 World Wide Technology
@@ -988,16 +816,20 @@
               </span>
             </div>
             <div class="summary">
-              <p>Providing customized tailored solutions for high value clients.</p>
+              <p>Providing customized tailored solutions for high-value clients.</p>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">OpenStack</span>
+              <span class="label label-roletag">Ceph</span>
             </div>
             <ul class="highlights">
               <li>Worked on-site with a very high-value client who wished to validate OpenStack
                 reliability on an upcoming generation of hardware and rethink their internal cloud
                 design. Together we developed tools to automate containerized deployment (pre-
-                docker-openstack) and I guided the team in testing, deploying, managing, and monitoring
-                their OpenStack cloud. My unique, intuitive and maintainable design prompted immediate
-                praise from the client, for which I earned WWT&#x27;s global service provider engineer
-                of the year award.</li>
+                Docker-OpenStack) and I guided the team in testing, deploying, managing, and monitoring
+                their OpenStack cloud. My unique, intuitive, and maintainable design prompted immediate
+                praise from the client, for which I earned the WWT Global Service Provider - Engineer of The Year Award.
+              </li>
               <li>Developed an automated build pipeline using Ansible Tower and Foreman, which, given
                 minimal specifications, allows our technicians to deploy the resources necessary to
                 provision and test hundreds of systems each day; which are shipped to our customers
@@ -1017,7 +849,6 @@
             <div class="position">
               Director of Technology
             </div>
-            <span class="label label-default">DevOps</span>
             <div class="company">
               <span class="name">
                 MassRoots
@@ -1034,6 +865,13 @@
                   (1 year)
                 </span>
               </span>
+            </div>
+            <div class="summary">
+              <p>Guide architecture of new API and backend services, and a shim to facilitate data migration from old to
+                new environment.</p>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">DevOps</span>
             </div>
             <ul class="highlights">
               <li>Responsible for the redesign of the infrastructure to run the mobile application,
@@ -1052,11 +890,8 @@
           </div>
           <div class="item">
             <div class="position">
-              Prinicipal OpenStack Engineer
+              Principal OpenStack Engineer
             </div>
-            <span class="label label-default">OpenStack</span>
-            <span class="label label-default">NetApp</span>
-            <span class="label label-default">DevOps</span>
             <div class="company">
               <span class="name">
                 Photobucket
@@ -1073,6 +908,15 @@
                   (3 years)
                 </span>
               </span>
+            </div>
+            <div class="summary">
+              <p>Architect OpenStack infrastructure and automation requirements, then oversee migration from bare-metal
+                to private cloud.</p>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">OpenStack</span>
+              <span class="label label-roletag">NetApp</span>
+              <span class="label label-roletag">DevOps</span>
             </div>
             <ul class="highlights">
               <li>Worked with a small high-output team responsible for maintaining site reliability while
@@ -1098,8 +942,6 @@
             <div class="position">
               Senior Systems Engineer
             </div>
-            <span class="label label-default">SRE</span>
-            <span class="label label-default">DevOps</span>
             <div class="company">
               <span class="name">
                 Yahoo
@@ -1117,6 +959,14 @@
                 </span>
               </span>
             </div>
+            <div class="summary">
+              <p>Provide design expertise to modernize the application stack while improving performance and
+                reliability.</p>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">SRE</span>
+              <span class="label label-roletag">DevOps</span>
+            </div>
             <ul class="highlights">
               <li>Managed the deployment of the Yahoo! Contributor Network including network and hardware
                 specifications, system provisioning, QA process, and launch.</li>
@@ -1129,10 +979,10 @@
               <li>Managed Yahoo Voices launch and affected changes to improve scalability and automation.
               </li>
               <li>Architected parallel code deployment system for dev, stage, QA, and production
-                environments using Git. Resulted in full deploys in under 90 seconds and featured
+                environments using Git. This resulted in full deploys in under 90 seconds and featured
                 tiered-deploy and full rollback-to-stable capabilities.</li>
               <li>Managed the Denver office integration with Yahoo&#x27;s corporate network, completing
-                this several months ahead of Yahoo! projections. This included building out the IDF room
+                the migration several months ahead of Yahoo! projections. This included building out the IDF room
                 to spec concerning cooling and power, redundant network stacks, cabling, and
                 buildout/migration of all development environments.</li>
               <li>Co-managed the Yahoo Contributor Network site release in the US, UK, and Brazil.</li>
@@ -1145,9 +995,6 @@
             <div class="position">
               Lead Systems Administrator
             </div>
-            <span class="label label-default">SRE</span>
-            <span class="label label-default">cPanel</span>
-            <span class="label label-default">Support</span>
             <div class="company">
               <span class="name">
                 A2 Hosting
@@ -1164,6 +1011,15 @@
                   (2 years)
                 </span>
               </span>
+            </div>
+            <div class="summary">
+              <p>Leverage previous cPanel and WHM experience to improve product offerings and train support teams to
+                provide faster turnarounds, leading to higher customer satisfaction.</p>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">SRE</span>
+              <span class="label label-roletag">cPanel</span>
+              <span class="label label-roletag">Support</span>
             </div>
             <ul class="highlights">
               <li>Responsible for maintaining the hardware and software of more than 250 CentOS servers in
@@ -1186,9 +1042,6 @@
             <div class="position">
               Systems Administrator / Co-Owner
             </div>
-            <span class="label label-default">SRE</span>
-            <span class="label label-default">cPanel</span>
-            <span class="label label-default">Support</span>
             <div class="company">
               <span class="name">
                 Obsidian Hosting Networks
@@ -1207,10 +1060,15 @@
               </span>
             </div>
             <div class="summary">
-              <p>Game server hosting for everyone.</p>
+              <p> High-performance multiplayer Game Servers, bundled with voice chat and web hosting services.</p>
+            </div>
+            <div class="item">
+              <span class="label label-roletag">SRE</span>
+              <span class="label label-roletag">cPanel</span>
+              <span class="label label-roletag">Support</span>
             </div>
             <ul class="highlights">
-              <li>Built, racked, cabled and configured 50 Fedora Core 4 webservers.</li>
+              <li>Built, racked, cabled, and configured 50 Fedora Core 4 webservers.</li>
               <li>Maintained remote and on-site hardware, software, installation, and deployments of
                 cPanel and WHM software.</li>
               <li>Executed deployments of ModernBill and then WHMCS billing and client areas.</li>
@@ -1230,47 +1088,51 @@
         </section>
         <section class="section-awards">
           <h2 class="title">
-            <span class=""><i class="fa fa-star" aria-hidden="true"></i>
-              Awards<i class="fa fa-star" aria-hidden="true"></i>
+            <span class="">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              Awards
+              <i class="fa fa-star" aria-hidden="true"></i>
             </span>
           </h2>
           <ul>
             <li class="item">
               <div class="title">
-                Engineer of the Year
-                <span class="date">
+                <span class="label label-awardtag">Engineer of the Year</span>
+                <span class="item.date">
                   | Nov 2014
                 </span>
-                <span class="awarder">
+                <span class="item.awarder">
                   | GSP Award Committee
                 </span>
               </div>
               <div class="summary">
-                <p></p>
-                <p>Providing unwavering exceptional expertise, service, and professionalism</p>
-                <p>Worked on-site with a very high-value client who wished to validate OpenStack
+                <p>For providing unwavering dedication to meet customer goals and exemplifying company standards for
+                  expertise, service, and professionalism.</p>
+              </div>
+              <div class="details">
+                <p>I Worked on-site with a very high-value client who wished to validate OpenStack
                   reliability on an upcoming generation of hardware and rethink their internal cloud
                   design. Together we developed tools to automate containerized deployment (pre-
-                  docker-openstack) and I guided the team in testing, deploying, managing, and
-                  monitoring their OpenStack cloud. My unique, intuitive and maintainable design
-                  prompted immediate praise from the client, for which I earned WWT&#x27;s global
-                  service provider engineer of the year award.</p>
+                  docker-openstack). I guided the team in deploying, managing, monitoring, and benchmarking
+                  their redesigned private OpenStack environment.</p>
               </div>
             </li>
             <li class="item">
               <div class="title">
-                Guest Speaker for Cisco at OpenStack summit
-                <span class="date">
+                <span class="label label-awardtag">Cisco Honorary Guest Speaker at OpenStack Summit</span>
+                <span class="item.date">
                   | Apr 2013
                 </span>
-                <span class="awarder">
+                <span class="item.awarder">
                   | Cisco Cloud Team
                 </span>
               </div>
               <div class="summary">
-                <p></p>
+                <p>Present experiences deploying OpenStack on Cisco UCS hardware in concert with NetApp storage.</p>
+              </div>
+              <div class="details">
                 <p>I was Invited by Cisco&#x27;s OpenStack team to speak to their engineers about my
-                  experiences, improvements, and pitfalls I had found through deploying OpenStack on
+                  experiences, improvements, and pitfalls I found through deploying OpenStack on
                   Cisco UCS hardware. These experiences were contributed to their official
                   documentation.</p>
               </div>
@@ -1290,14 +1152,14 @@
             </div>
             <div class="summary">
               <p>Highly Available compute cluster with distributed, tiered storage dedicated to home
-                automation, image-processing, media services and education/R&D projects.</p>
+                automation, image processing, media services, and education/R&D projects.</p>
             </div>
             <ul class="highlights">
               <li>Converged, highly-available compute environment with 224 CPU cores, 512GB RAM, (4x)
                 Nvidia Quadro P1000 GPUs [SR-IOV], 10TB (SAS3 SSD) Ceph Cluster [RBD: KVM/LXC Block
                 Storage ]</li>
               <li>180TB (SAS3 HDD) Ceph Cluster [CephFS: Shared Media and AutoFS Home Directories]</li>
-              <li>Dedicated Machine-Learning, Image Processing, and Home-Automation environment</li>
+              <li>Dedicated Machine-Learning, Image Processing, and Home-Automation Environment </li>
               <li>10gbit and 25gbit network</li>
               <li>Running and maintaining my Ceph cluster has served as a great learning platform,
                 providing reliable and cost-effective storage.</li>
@@ -1305,7 +1167,7 @@
                 for work and vice-versa.</li>
               <li>I have automated metrics collection as a part of my build pipeline to monitor systems
                 and services.</li>
-              <li>Golden images are used for both KVM and LXC environments with Ansible handling final
+              <li>Golden images are used for both KVM and LXC environments with Ansible handling the final
                 configuration.</li>
             </ul>
             <div class="company">
@@ -1315,20 +1177,20 @@
               </span>
             </div>
             <div class="keywords">
-              <span class="label label-default">Proxmox</span>
-              <span class="label label-default">Ceph</span>
-              <span class="label label-default">KVM</span>
-              <span class="label label-default">LXC</span>
-              <span class="label label-default">Docker</span>
-              <span class="label label-default">Ubiquiti</span>
-              <span class="label label-default">Ansible</span>
-              <span class="label label-default">Home Automation</span>
-              <span class="label label-default">IoT</span>
-              <span class="label label-default">Grafana/Loki</span>
-              <span class="label label-default">InfluxDB OSS2</span>
-              <span class="label label-default">Prometheus</span>
-              <span class="label label-default">Plex</span>
-              <span class="label label-default">Git/Github</span>
+              <span class="label label-roletag">Proxmox</span>
+              <span class="label label-roletag">Ceph</span>
+              <span class="label label-roletag">KVM</span>
+              <span class="label label-roletag">LXC</span>
+              <span class="label label-roletag">Docker</span>
+              <span class="label label-roletag">Ubiquiti</span>
+              <span class="label label-roletag">Ansible</span>
+              <span class="label label-roletag">Home Automation</span>
+              <span class="label label-roletag">IoT</span>
+              <span class="label label-roletag">Grafana/Loki</span>
+              <span class="label label-roletag">InfluxDB OSS2</span>
+              <span class="label label-roletag">Prometheus</span>
+              <span class="label label-roletag">Plex</span>
+              <span class="label label-roletag">Git/Github</span>
             </div>
           </div>
         </section>
